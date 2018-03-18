@@ -1,0 +1,50 @@
+<HTML>
+   <HEAD>
+   <TITLE>Taller Desafío</TITLE>
+   <SCRIPT>
+   </SCRIPT>
+   </HEAD>
+   <BODY bgcolor="#FFFFDD">
+   
+   <form onsubmit="javascript:cal(document.getElementById('valueshow').value);return false;">
+<table BORDER = 1>
+<tbody>
+<tr>
+<td colspan="4"><input id="valueshow" type="text" value="0" />
+</tr>
+<tr>
+<td><input  onclick="cals(this.value);" type="button" value="7" />
+<td><input  onclick="cals(this.value);" type="button" value="8" />
+<td><input  onclick="cals(this.value);" type="button" value="9" />
+<td><input  onclick="cals(this.value);" type="button" value="/" />
+</tr>
+<tr>
+<td><input  onclick="cals(this.value);" type="button" value="4" />
+<td><input  onclick="cals(this.value);" type="button" value="5" />
+<td><input  onclick="cals(this.value);" type="button" value="6" />
+<td><input  onclick="cals('*');" type="button" value="x" />
+</tr>
+<tr>
+<td><input  onclick="cals(this.value);" type="button" value="1" />
+<td><input  onclick="cals(this.value);" type="button" value="2" />
+<td><input  onclick="cals(this.value);" type="button" value="3" />
+<td><input  onclick="cals(this.value);" type="button" value="-" />
+</tr>
+<tr>
+<td><input  onclick="cals(this.value);" type="button" value="0" />
+<td><input  onclick="cals(this.value);" type="button" value="." />
+<td><input  onclick="cals(this.value);" type="button" value="C" />
+<td><input  onclick="cals(this.value);" type="button" value="+" />
+</tr>
+<tr>
+<td colspan="4"><input  onclick="cal(document.getElementById('valueshow').value);" type="button" value="=" />
+</td>
+
+</tr>
+</tbody>
+</table>
+</form>
+</div>
+<script type="text/javascript" src="js/calculadora.js"></script>
+   </BODY>
+   </HTML>

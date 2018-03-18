@@ -1,0 +1,189 @@
+/*body { 
+	background: black;      para el fondo
+	color: white            para las letras
+}
+font seze, se utiliza para cambiar el tamaño de la fuente
+ejemplo este le cambia a todos los elementos a el tamaño
+a {
+	font size:20px;
+}
+ejemplo2 este le cambia a los elemtos a el tamaño solo los que estan en p (parrafo)
+p a {
+	font size:20px;
+}
+*/ 
+.logoxd {
+	width: 35%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	background: #FF8001;
+	color: white;
+	width: 97%;
+	
+	text-align: center;
+	padding: 1.5%;
+	margin: .9% 0% .9% 0%;
+	font-size: 25px;
+
+}
+.menu {
+	background: #FF8001;
+	list-style: none;
+	margin:0%;
+	padding:0%;
+}
+
+.menu li {
+	display: inline-block;
+}
+.menu li a {
+	padding:10px 40px;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	margin:0%;
+}
+header {
+	background: black;
+}
+.wrapper {
+	background: #fff;
+	padding: 0% .9%; 
+}
+
+.menu li a:hover {
+	background: #ccc;
+}
+footer {
+	background: #ccc;
+	color: black;
+}
+header div img:hover {
+}
+.m2 {
+	width: 14%;
+	float: right;
+}
+
+.m3 {
+	width: 35%;
+	float: left;
+	
+	
+}
+h3 {
+	font-size: 25px;
+}
+.video {
+	float: right;
+
+	
+}
+.parte1, .parte2, h3, h2, p{
+	font-size: 1.5em;
+	text-align: center;
+}
+h2, h3 {
+	color: orange;
+}
+
+.logotipo:hover{
+background: #D8D8D8;
+}
+footer{
+	float: none;
+}
+h4 { color: orange;
+ font-size: 1.5em;
+	text-align: center;
+
+}
+.video{
+	margin: 3%;
+}
+.gafa{
+	width: 35%;
+	float: right;
+}
+.h22 {
+	text-align: center;
+}
+.imagenp3 {
+	float: right;
+	width: 30%;
+}
+.h55{
+	text-align: center;
+color: orange;
+ font-size: 1.5em;
+ 
+}
+a {
+	color: red;
+}
+.gafa:hover{
+	width: 36%;
+}
+.mision{
+	text-align: justify;
+	margin: 0% 2% ;
+}
+.vision{
+	margin: 0% 2% 0% 2%;
+}
+
+.gif{
+	display: block;
+	margin: auto;
+}
+.m3:hover{
+	width: 36%;
+}
+.imagenp3:hover {
+	width: 31% 
+}
+
+.m4 {
+	width: 35%;
+	float: left;
+}
+.m4:hover {
+	width: 36%;
+
+}
+.sebastian {
+	font-size: 150% ;
+	margin: 0% 30% 0% 30%;
+}
+
+.hoja {
+	font-size: 170%;
+	background: #FF8001;
+	color: #fff;
+}
+.camilo {
+font-size: 150%;
+margin: 0% 33% 0% 33%;
+
+}
+
+.mateo{
+	font-size: 150%;
+	margin: 0% 33% 0% 33%;
+}
+.formulario {
+	width: 20%;
+	border: 1px solid #ccc;
+	margin: 1%;
+	padding:1%;
+}
+input, textarea {
+	width: 100%
+}
+.parte2 {
+    color: red;
+}
